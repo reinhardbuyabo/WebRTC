@@ -109,3 +109,13 @@ func unregister(){
 }
 ```
 
+- [ ] main.go
+    - [ ] server.go
+    - [ ] chat.go
+    - [ ] room.go
+    - [ ] stream.go
+    - [ ] welcome.go
+    - [ ] client.go
+    - [ ] hub.go
+    - [ ] peers.go
+
