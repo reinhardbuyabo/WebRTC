@@ -119,3 +119,14 @@ func unregister(){
     - [ ] hub.go
     - [ ] peers.go
 
+
+So what exactly is sent between 2 clients and how is it sent?
+1. SDP
+A Session Description Protocol is an object containing information about the session connection such as the codec, address, media type, audio and video and so on.
+
+2. ICE Candidate
+An ICE candidate is a public IP address and port that could be potentially used as an address that receives data.
+
+- Each peer will typically have multiple ICE candidates that are gathered by making requests to a STUN Server, and they are exchanged between the 2 peers.
+
+## Exchanging Session Description Protocols and ICE Candidates.
